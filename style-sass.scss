@@ -1,19 +1,8 @@
-// @mixin center-xy {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+@mixin center-x {
+  display: flex;
+  justify-content: center;
+}
 
-// @mixin center-x {
-//   display: flex;
-//   justify-content: center;
-// }
-
-// @mixin center-y {
-//   display: flex;
-//   align-items: center;
-// }
-
-// #app {
-//   @include center-x;
-// }
+.container-movie {
+  @include center-x;
+}

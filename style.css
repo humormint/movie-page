@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto&display=swap");
 /* Layout */
 #app .movie {
-  margin: 100px auto;
+  margin: 100px auto 0;
   width: 1060px;
   padding: 39px 24px 27px 25px;
   background-color: #f2f2f2;
@@ -208,7 +208,7 @@
   color: transparent;
 }
 
-#app .container-company {
+.container-company {
   margin-top: 133px;
   background: #f2f2f2;
 }
@@ -242,6 +242,7 @@
 }
 
 /* Clear Fix */
+
 .container-company .com-link::after {
   content: "";
   display: block;
@@ -257,9 +258,6 @@
   margin-bottom: 35px;
 }
 
-/* .company .company-info {
-  display: flex;
-} */
 
 .company .company-info > dt,
 dd {
